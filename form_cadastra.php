@@ -14,6 +14,8 @@
                 <input type="text" class="form-control" name="quantidade" placeholder="Digite a quantidade">                
             </div>
             
+            
+            <a href='index.php' type='button' class='btn btn-danger'>HOME</a>
             <button type="submit" class="btn btn-primary">Cadastar</button>
         </form>
     </div>

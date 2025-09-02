@@ -9,7 +9,7 @@ $stmt->bindParam(':nome', $nome);
 $stmt->bindParam(':preco', $preco);
 $stmt->bindParam(':quantidade', $quantidade);
 if ($stmt->execute()) {
-    echo "Produto inserido com sucesso!";
+    echo "<script>alert('Produto inserido com sucesso!');</script>";
 } else {
-    echo "Erro ao inserir produto.";
+    echo "<script>alert('Erro ao inserir produto.');</script>";
 }

@@ -27,7 +27,7 @@
                     echo "
                     <td>
                         <div class='btn-group' role='group'>
-                            <a href='form_atualiza.php?id=XXX' type='button' class='btn btn-danger'>ATUALIZAR</a>
+                            <a href='form_atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-danger'>ATUALIZAR</a>
                             <a href='excluir.php' type='button' class='btn btn-warning'>APAGAR</a>
                         </div>
                     </td>
@@ -39,8 +39,9 @@
                     
             </tbody>
         </table>
+         <a href='index.php' type='button' class='btn btn-danger'>HOME</a>
     </div>
-
+               
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
