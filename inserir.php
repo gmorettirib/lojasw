@@ -1,5 +1,5 @@
 <?php
-require 'conexão.php';
+require 'conexao.php';
 $nome = $_POST['nome'];
 $preco =$_POST['preco'];
 $quantidade = $_POST['quantidade'];
