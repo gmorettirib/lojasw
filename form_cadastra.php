@@ -1,7 +1,6 @@
 <?php
     include 'pedaco.php';
 ?>
-
     <div class="container">
         <form action="inserir.php" method="POST">
             <div class="mb-3">
@@ -15,8 +14,8 @@
             </div>
             
             
-            <a href='index.php' type='button' class='btn btn-danger'>HOME</a>
-            <button type="submit" class="btn btn-primary">Cadastar</button>
+            <a href='index.php' type='button' class='btn btn-custom-color'>HOME</a>
+            <button type="submit" class="btn btn-custom-color">Cadastar</button>
         </form>
     </div>
 

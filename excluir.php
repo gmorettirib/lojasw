@@ -1,6 +1,6 @@
 <?php
     require 'conexao.php';
-    $id = 1;
+    $id = $_GET['id'];
     $sql = "DELETE FROM produtos WHERE id = :id";
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':id', $id);

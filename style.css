@@ -1,0 +1,14 @@
+h1, div, container{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.btn-custom-color {
+    background-color: #ff5100;
+    color: white; 
+    border-color: #ff5100; 
+}
+
+body {
+    background-color: #e7a77c;
+}
