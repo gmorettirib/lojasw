@@ -17,8 +17,14 @@
     $stmt->bindParam(':quantidade_novo', $quantidade_novo);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Produto atualizado com sucesso!');</script>";
+        echo "<script>
+        alert('Produto atualizado com sucesso!');
+        window.location.href = 'listar.php';
+        </script>";
     } else {
-        echo "<script>alert('Erro ao atualizar produto.');</script>";
+        echo "<script>
+        alert('Erro ao atualizar produto.');
+        window.location.href = 'listar.php';
+        </script>";
     }
 ?>

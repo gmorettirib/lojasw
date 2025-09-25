@@ -9,7 +9,13 @@ $stmt->bindParam(':nome', $nome);
 $stmt->bindParam(':preco', $preco);
 $stmt->bindParam(':quantidade', $quantidade);
 if ($stmt->execute()) {
-    echo "<script>alert('Produto inserido com sucesso!');</script>";
+    echo "<script>
+    alert('Produto inserido com sucesso!');
+    window.location.href = 'listar.php';
+    </script>";
 } else {
-    echo "<script>alert('Erro ao inserir produto.');</script>";
+    echo "<script>
+    alert('Erro ao inserir produto.');
+    window.location.href = 'listar.php';
+    </script>";
 }
